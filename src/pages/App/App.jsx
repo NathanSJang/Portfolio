@@ -1,33 +1,27 @@
 import { useState } from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Container } from '@material-ui/core';
 import { getUser } from '../../utilities/users-service';
-import './App.css';
-import AuthPage from '../AuthPage/AuthPage';
-import NewOrderPage from '../NewOrderPage/NewOrderPage';
-import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
 import NavBar from '../../components/NavBar/NavBar';
+import gate from '../../image/goldengate.jpg'
+import AboutMe from '../../components/AboutMe/AboutMe'
+
+import useStyles from "./styles";
 
 export default function App() {
   const [user, setUser] = useState(getUser());
 
+  const classes = useStyles();
+
   return (
     <main className="App">
-      { user ?
-          <>
-            <NavBar user={user} setUser={setUser} />
-            <Switch>
-              <Route path="/orders/new">
-                <NewOrderPage />
-              </Route>
-              <Route path="/orders">
-                <OrderHistoryPage />
-              </Route>
-              <Redirect to="/orders" />
-            </Switch>
-          </>
-        :
-          <AuthPage setUser={setUser}/>
-      }
+      <NavBar user={user} setUser={setUser} />
+      <Container className={classes.mainContainer}>
+        <img src={gate} alt="welcome"/>
+        <AboutMe  />
+        <h1>project</h1>
+        <h1>down-Resume</h1>
+        <h1>thanks</h1>
+      </Container>
     </main>
   );
 }
