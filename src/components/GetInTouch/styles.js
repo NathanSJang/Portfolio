@@ -2,9 +2,9 @@ import { makeStyles } from '@material-ui/core';
 
 export default makeStyles((theme) => ({
   container: {
-    height: '90vh',
+    height: '70vh',
     marginTop: '3vmin',
-    paddingTop: '20vmin',
+    paddingTop: '1vmin',
   },
   title: {
     marginBottom: '2vmin'

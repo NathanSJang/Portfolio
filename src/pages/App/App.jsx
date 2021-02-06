@@ -7,6 +7,7 @@ import AboutMe from '../../components/AboutMe/AboutMe';
 import Projects from '../../components/Projects/Projects';
 import Contact from '../../components/Contact/Contact';
 import GetInTouch from '../../components/GetInTouch/GetInTouch';
+import Footer from '../../components/Footer/Footer';
 
 import useStyles from "./styles";
 
@@ -24,6 +25,7 @@ export default function App() {
         <Projects />
         <Contact />
         <GetInTouch />
+        <Footer />
       </Container>
     </main>
   );
