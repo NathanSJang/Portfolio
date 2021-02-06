@@ -50,6 +50,19 @@ export default function NavBar() {
         Contact
         </Link>
         </Button>      
+        <Button>
+        <Link
+          className={classes.text}
+          activeClass="active"
+          to='getInTouch'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+        getInTouch
+        </Link>
+        </Button>      
       <Button className={classes.resumeBtn} variant='outlined' href={ResumePdf}>Resume</Button>
       </Toolbar>
     </AppBar>

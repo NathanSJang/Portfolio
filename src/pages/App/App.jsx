@@ -6,6 +6,7 @@ import Welcome from '../../components/Welcome/Welcome';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Projects from '../../components/Projects/Projects';
 import Contact from '../../components/Contact/Contact';
+import GetInTouch from '../../components/GetInTouch/GetInTouch';
 
 import useStyles from "./styles";
 
@@ -22,7 +23,7 @@ export default function App() {
         <AboutMe  />
         <Projects />
         <Contact />
-        <h1>thanks</h1>
+        <GetInTouch />
       </Container>
     </main>
   );
