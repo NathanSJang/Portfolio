@@ -8,6 +8,7 @@ import Projects from '../../components/Projects/Projects';
 import Contact from '../../components/Contact/Contact';
 import GetInTouch from '../../components/GetInTouch/GetInTouch';
 import Footer from '../../components/Footer/Footer';
+import FloatingBtn from '../../components/FloatingBtn/FloatingBtn';
 
 import useStyles from "./styles";
 
@@ -19,6 +20,7 @@ export default function App() {
   return (
     <main className="App">
       <NavBar user={user} setUser={setUser} />
+      <FloatingBtn />
       <Container className={classes.mainContainer}>
         <Welcome />
         <AboutMe  />
