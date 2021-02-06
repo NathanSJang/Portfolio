@@ -2,8 +2,10 @@ import { useState } from 'react';
 import { Container } from '@material-ui/core';
 import { getUser } from '../../utilities/users-service';
 import NavBar from '../../components/NavBar/NavBar';
-import gate from '../../image/goldengate.jpg'
-import AboutMe from '../../components/AboutMe/AboutMe'
+import Welcome from '../../components/Welcome/Welcome';
+import AboutMe from '../../components/AboutMe/AboutMe';
+import Projects from '../../components/Projects/Projects';
+import Contact from '../../components/Contact/Contact';
 
 import useStyles from "./styles";
 
@@ -16,10 +18,10 @@ export default function App() {
     <main className="App">
       <NavBar user={user} setUser={setUser} />
       <Container className={classes.mainContainer}>
-        <img src={gate} alt="welcome"/>
+        <Welcome />
         <AboutMe  />
-        <h1>project</h1>
-        <h1>down-Resume</h1>
+        <Projects />
+        <Contact />
         <h1>thanks</h1>
       </Container>
     </main>
