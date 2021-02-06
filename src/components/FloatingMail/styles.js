@@ -6,18 +6,18 @@ export default makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     position: 'fixed',
-    marginTop: '530px',
-    marginLeft: '3vmin',
+    marginTop: '480px',
+    marginLeft: '185vmin',
   },
   vl: {
     borderLeft: '1px solid #FF3E55',
     height: '300px',
     marginLeft: '1vmin'
   },
-  icon: {
-    marginBottom: '1vmin',
-    '&:hover' :{
-      color: '#FF3E55',
-    },
-  }
+  mail: {
+    writingMode: 'vertical-lr',
+    color: 'white',
+    textDecoration: 'none',
+    marginBottom: '2vmin',
+  },
 }));

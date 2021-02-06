@@ -9,7 +9,7 @@ import Contact from '../../components/Contact/Contact';
 import GetInTouch from '../../components/GetInTouch/GetInTouch';
 import Footer from '../../components/Footer/Footer';
 import FloatingBtn from '../../components/FloatingBtn/FloatingBtn';
-
+import FloatingMail from '../../components/FloatingMail/FloatingMail';
 import useStyles from "./styles";
 
 export default function App() {
@@ -21,6 +21,7 @@ export default function App() {
     <main className="App">
       <NavBar user={user} setUser={setUser} />
       <FloatingBtn />
+      <FloatingMail />
       <Container className={classes.mainContainer}>
         <Welcome />
         <AboutMe  />

@@ -3,7 +3,7 @@ import { GitHub, LinkedIn } from '@material-ui/icons';
 
 import useStyles from "./styles";
 
-export default function FloatingBtn() {
+export default function FloatingMail() {
   const classes = useStyles();
 
   return(

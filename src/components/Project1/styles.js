@@ -8,7 +8,7 @@ export default makeStyles((theme) => ({
     width: '110%',
     zIndex: '-1',
     marginTop: '8vmin',
-    marginLeft: '2vmin'
+    marginLeft: '5vmin'
   },
   contentContainer: {
     marginTop: '8vmin'
