@@ -18,7 +18,8 @@ export default function Welcome() {
           <Grid xs={6}>
             <Grow in timeout={2800}>
               <Typography variant="h6">
-                I'm a software engineer based in San Francisco, CA. I have Passion for create App
+                I'm a software engineer based in San Francisco, CA.<br /> 
+                I have Passion for create App
               </Typography>
             </Grow>
           </Grid>

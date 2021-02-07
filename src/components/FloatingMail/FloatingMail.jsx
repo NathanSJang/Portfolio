@@ -1,5 +1,3 @@
-import { Link } from '@material-ui/core'
-import { GitHub, LinkedIn } from '@material-ui/icons';
 import Mailto from 'react-protected-mailto'
 
 import useStyles from "./styles";

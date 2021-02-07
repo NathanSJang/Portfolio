@@ -60,7 +60,7 @@ export default function NavBar() {
           offset={-70}
           duration={500}
         >
-        getInTouch
+        Get In Touch
         </Link>
         </Button>      
       <Button className={classes.resumeBtn} variant='outlined' href={ResumePdf}>Resume</Button>

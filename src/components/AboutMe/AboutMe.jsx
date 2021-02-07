@@ -20,9 +20,9 @@ export default function AboutMe() {
             <Typography variant="h6">Technologies</Typography>
             <ul>
               <Grid className={classes.listContainer} xs={8}>
-                <Grid xs={3}>
-                  <li className={classes.list}>Java Script</li>
-                  <li className={classes.list}>HTML & css </li>
+                <Grid xs={4}>
+                  <li className={classes.list}>JavaScript</li>
+                  <li className={classes.list}>HTML & CSS </li>
                   <li className={classes.list}>React </li>
                 </Grid>
                 <Grid xs={3}>
