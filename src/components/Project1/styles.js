@@ -11,7 +11,7 @@ export default makeStyles((theme) => ({
     marginLeft: '5vmin'
   },
   contentContainer: {
-    marginTop: '8vmin'
+    marginTop: '8vmin',
   },
   listUl: {
     display: 'flex',
@@ -42,5 +42,12 @@ export default makeStyles((theme) => ({
   icon: {
     marginRight: '1vmin',
     padding: '2.5px',
+  },
+  text: {
+    fontFamily: 'Noto Sans JP',
+  },
+  textHeader: {
+    fontFamily: 'Noto Sans JP',
+    fontWeight: '400'
   }
 }));

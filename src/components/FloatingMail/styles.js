@@ -10,7 +10,7 @@ export default makeStyles((theme) => ({
     marginLeft: '185vmin',
   },
   vl: {
-    borderLeft: '1px solid #FF3E55',
+    borderLeft: '1px solid #FF7272',
     height: '300px',
     marginLeft: '1vmin'
   },

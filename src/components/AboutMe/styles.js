@@ -2,15 +2,16 @@ import { makeStyles } from '@material-ui/core';
 
 export default makeStyles((theme) => ({
   container: {
-    height: '90vh',
+    height: '130vh',
     marginTop: '3vmin',
     paddingTop: '20vmin',
   },
   title: {
-    marginBottom: '2vmin'
+    marginBottom: '2vmin',
+    fontFamily: 'Noto Sans JP',
   },
   divider: {
-    backgroundColor: '#FF3E55',
+    backgroundColor: '#FF7272',
     width: '55%',
   },
   listContainer: {
@@ -22,13 +23,31 @@ export default makeStyles((theme) => ({
   },
   textContainer: {
     marginTop: '3vmin',
+    fontFamily: 'Noto Sans JP',
   },
   list: {
     '&::marker': {
       content: '"▹"',
-      color: '#FF3E55',
+      color: '#FF7272',
       marginRight: '1vmin'
     },
     paddingLeft: '1vmin'
+  },
+  text: {
+    fontFamily: 'Noto Sans JP',
+  },
+  textHeader: {
+    fontFamily: 'Noto Sans JP',
+    fontWeight: '400'
+  },
+  myPhoto: {
+    maxHeight: '300px',
+    maxWidth: '300px',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    display: 'block'
+  },
+  potoPaper: {
+    maxWidth: '280px',
   }
 }));

@@ -4,4 +4,7 @@ export default makeStyles((theme) => ({
   container: {
     height: '7vh',
   },
+  text: {
+    fontFamily: 'Noto Sans JP',
+  }
 }));

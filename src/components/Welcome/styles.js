@@ -9,5 +9,11 @@ export default makeStyles((theme) => ({
   },
   title: {
     marginBottom: '2vmin',
+    fontFamily: 'Noto Sans JP',
+    fontWeight: '400',
   },
+  text: {
+    fontFamily: 'Noto Sans JP',
+    fontWeight: '300',
+  }
 }));

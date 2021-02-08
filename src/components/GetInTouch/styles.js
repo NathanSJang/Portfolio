@@ -7,7 +7,9 @@ export default makeStyles((theme) => ({
     paddingTop: '1vmin',
   },
   title: {
-    marginBottom: '2vmin'
+    marginBottom: '2vmin',
+    fontFamily: 'Noto Sans JP',
+    fontWeight: '400',
   },
   touchBtn: {
     color: '#FF3E55',
@@ -17,5 +19,9 @@ export default makeStyles((theme) => ({
   mailtotext: {
     color: '#FF3E55',
     textDecoration: 'none',
-  }
+    fontFamily: 'Noto Sans JP',
+  },
+  text: {
+    fontFamily: 'Noto Sans JP',
+  },
 }));

@@ -12,7 +12,7 @@ export default function Resume() {
     <Container id='resume' className={classes.mainConatiner}>
       <Typography className={classes.title} variant='h4' align='left'>CONTACT</Typography>
       <Divider className={classes.divider} />
-      <Grid xs={6}>
+      <Grid xs={12}>
         <div className={classes.contactDiv}>
           <Call />
           <Typography className={classes.contactText} variant='h6'>
@@ -54,7 +54,7 @@ export default function Resume() {
         </div>
       </Grid>
       <Grid className={classes.resumeDiv} xs={4}>
-        <Typography variant='h6'>Download </Typography>
+        <Typography className={classes.text} variant='h6'>Download </Typography>
         <Button className={classes.resumeBtn} variant='outlined' color="inherit" href={ResumePdf}>resume</Button>
       </Grid>
         <img className={classes.resumeImg} src={ResumePng} alt="resume"/>

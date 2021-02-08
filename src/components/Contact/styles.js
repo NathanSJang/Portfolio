@@ -6,10 +6,11 @@ export default makeStyles((theme) => ({
     height: '160vh',
   },
   title: {
-    marginBottom: '2vmin'
+    marginBottom: '2vmin',
+    fontFamily: 'Noto Sans JP',
   },
   divider: {
-    backgroundColor: '#FF3E55',
+    backgroundColor: '#FF7272',
     width: '55%',
   },
   contactDiv: {
@@ -19,9 +20,11 @@ export default makeStyles((theme) => ({
   },
   contactText: {
     marginLeft: '1vmin',
+    fontFamily: 'Noto Sans JP',
   },
   mailtotext: {
     color: 'white',
+    fontFamily: 'Noto Sans JP',
     textDecoration: 'none',
     '&:hover': {
       textDecoration: 'underline',
@@ -33,8 +36,15 @@ export default makeStyles((theme) => ({
   },
   resumeBtn: {
     marginLeft: '2vmin',
+    fontFamily: 'Noto Sans JP'
   },
   resumeImg: {
     marginTop: '5vmin',
-  }
+    height: 'auto',
+    width: '60%',
+    minWidth: '400px',
+  },
+  text: {
+    fontFamily: 'Noto Sans JP',
+  },
 }));

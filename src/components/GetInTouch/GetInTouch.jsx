@@ -10,9 +10,10 @@ export default function GetInTouch() {
   return(
     <Container id='getInTouch' className={classes.container}>
       <Typography className={classes.title} variant='h4'>Get In Touch</Typography>
-      <Grid xs={6}>
-        <Typography varinat='h6'>
-          I'm currently looking for any new opportunities, my inbox is always open. 
+      <Grid xs={12}>
+        <Typography className={classes.text} varinat='h6'>
+          I'm currently looking for any new opportunities, my inbox is always open.
+          <br /> 
           Whether you have a question or just want to say hi, 
           I'll try my best to get back to you!
         </Typography>

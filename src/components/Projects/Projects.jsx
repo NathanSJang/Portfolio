@@ -24,7 +24,7 @@ export default function Projects() {
 
   return(
     <Container id="projcets" className={classes.mainConatiner}>
-    <h1>Projects</h1>
+    <h1 className={classes.textHeader}>Projects</h1>
     {slider}
     </Container>
   );
