@@ -5,7 +5,7 @@ export default function Welcome() {
   const classes = useStyles();
 
   return(
-    <Container className={classes.welcomeConatainer}>
+    <Container id='welcome' className={classes.welcomeConatainer}>
         <Grid className={classes.paddingTop} container>
           <Grid xs={12}>
             <Grow in timeout={1500}>

@@ -13,12 +13,16 @@ export default makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   toolBar: {
-    marginTop: '3vmin',
+    marginTop: '2vmin',
   },
   logo: {
-    width: '5%',
+    width: '55%',
     minWidth: '80px',
-    margin: '1vmin',
+    marginTop: '1.2vmin',
+    marginLeft: '-1.5vmin',
+  },
+  logoBtn: {
+    padding: '0',
   },
   text: {
     color: '#FF7272',
@@ -29,5 +33,5 @@ export default makeStyles((theme) => ({
     color: '#FF7272',
     border: '1px solid #FF7272',
     marginLeft: '2vmin'
-  }
+  },
 }));

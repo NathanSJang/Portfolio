@@ -10,7 +10,18 @@ export default function NavBar() {
 
   return (
     <AppBar className={classes.appBar} color="inherit" position="fixed">
-      <img className={classes.logo} src={logo} alt="logo"/>
+      <Button className={classes.logoBtn}>
+        <Link
+          activeClass="active"
+          to='welcome'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+        <img className={classes.logo} src={logo} alt="logo"/>
+        </Link>
+      </Button>
       <Toolbar className={classes.toolBar}>
         <Button>
         <Link
