@@ -7,7 +7,7 @@ export default makeStyles((theme) => ({
     flexDirection: 'column',
     position: 'fixed',
     marginTop: '530px',
-    marginLeft: '3vmin',
+    marginLeft: '1vmin',
   },
   vl: {
     borderLeft: '1px solid #FF7272',

@@ -6,8 +6,10 @@ export default makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     position: 'fixed',
-    marginTop: '480px',
-    marginLeft: '185vmin',
+    marginTop: '45vmin',
+    float: 'right',
+    marginRight: '3vmin',
+    right: '0',
   },
   vl: {
     borderLeft: '1px solid #FF7272',
