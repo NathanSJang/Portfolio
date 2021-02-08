@@ -13,10 +13,12 @@ export default makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   toolBar: {
-    marginTop: '1.5vmin',
+    marginTop: '3vmin',
   },
   logo: {
-    color: '#FF3E55'
+    width: '5%',
+    minWidth: '80px',
+    margin: '1vmin',
   },
   text: {
     color: '#FF7272',

@@ -1,6 +1,7 @@
 import { AppBar, Button, Toolbar, } from '@material-ui/core';
 import { Link } from 'react-scroll'
 import ResumePdf from '../../pdf/Resume.pdf'
+import logo from '../../image/en_grey_logo.png'
 
 import useStyles from "./styles";
 
@@ -9,7 +10,7 @@ export default function NavBar() {
 
   return (
     <AppBar className={classes.appBar} color="inherit" position="fixed">
-      <h1 className={classes.logo}>logo</h1>
+      <img className={classes.logo} src={logo} alt="logo"/>
       <Toolbar className={classes.toolBar}>
         <Button>
         <Link
