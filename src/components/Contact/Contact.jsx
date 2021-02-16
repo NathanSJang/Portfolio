@@ -24,7 +24,7 @@ export default function Resume() {
           <Typography className={classes.contactText} variant='h6'>
             <Mailto 
               className={classes.mailtotext} 
-              email='sbtan1989@gmail.com' 
+              email='nathan.s.jang@gmail.com' 
               obfuscate={true} 
               sytle={{color: 'white'}} 
             />

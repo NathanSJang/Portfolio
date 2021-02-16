@@ -14,7 +14,7 @@ export default function FloatingBtn() {
     <div className={classes.FloatingBtnConatiner}r>
       <Mailto 
         className={classes.mail} 
-        email='sbtan1989@gmail.com' 
+        email='nathan.s.jang@gmail.com' 
         obfuscate={true} 
         sytle={{color: 'white'}} 
       />

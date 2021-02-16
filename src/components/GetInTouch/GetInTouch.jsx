@@ -21,7 +21,7 @@ export default function GetInTouch() {
       <Button className={classes.touchBtn} varinat='outlined' href='sbtan1989@gmail.com'>
       <Mailto 
               className={classes.mailtotext} 
-              email='sbtan1989@gmail.com' 
+              email='nathan.s.jang@gmail.com' 
               obfuscate={true} 
               sytle={{color: 'white'}} 
             />
