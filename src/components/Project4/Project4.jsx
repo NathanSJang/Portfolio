@@ -28,11 +28,24 @@ export default function Projects3() {
               First MERN stack app using token base user centric CURD and Stripe API for checkout
             </Typography>
           </Paper>
-          <ul className={`${classes.listUl} ${classes.text}`}>
+          {/* <ul className={`${classes.listUl} ${classes.text}`}>
             <li className={classes.list}>React & JavaScript</li>
             <li className={classes.list}>Node Js</li>
             <li className={classes.list}>Mongoose & MongoDB</li>
-          </ul>
+          </ul> */}
+          <Paper className={classes.papper}>
+            <Typography className={classes.text} variant='body1'>
+              <span className={classes.languagetext}>React & JavaScript</span> - Frontend component
+              <br />
+              <span className={classes.languagetext}>Express</span> - MVC routing
+              <br />
+              <span className={classes.languagetext}>Node Js</span> - Non blocking network process
+              <br />
+              <span className={classes.languagetext}>MongoDB</span> - Embedding itmes data for order
+              <br />
+              <span className={classes.languagetext}>Mongoose</span> - Manage object mapping between Node Js and MongoDB
+            </Typography>
+          </Paper>
         </>
         }
         <div className={classes.iconContainer}>

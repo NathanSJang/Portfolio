@@ -36,9 +36,9 @@ export default function Resume() {
               className={classes.contactText} 
               variant='h6' 
               color='inherit' 
-              href='https://github.com/grey128'
+              href='https://github.com/NathanSJang'
             >
-              https://github.com/grey1287
+              https://github.com/NathanSJang
             </Link>
         </div>
         <div className={classes.contactDiv}>

@@ -15,7 +15,7 @@ export default function FloatingMail() {
         <Link 
           className={classes.icon}  
           color='inherit' 
-          href='https://github.com/grey128'
+          href='https://github.com/NathanSJang'
         >
           <GitHub />
         </Link>

@@ -14,9 +14,9 @@ export default function AboutMe() {
       <Grid className={classes.textContainer} container spacing={3}>
         <Grid item xs={12} lg={6}>
           <Typography className={classes.text} variant='h6'>
-            Software Engineer who used to be a professional high-end sushi Chef. 
-            My strong passion in creating new dishes easily transformed into building new products, enjoying finding a path to solving problems.
-            From several years of fine-dining experience.
+          Software Engineer with a background in the Michelin starred culinary scene for over 8 years. 
+          I am a self starter who is a reliable and responsible individual, having experience in high pressure and fast paced working environments, successfully producing finest quality end results. 
+          I have a strong passion for learning, maintaining, and improving complex systems.
           </Typography>
           <div className={classes.technologiesContainer}>
             <Typography className={classes.textHeader} variant="h6">Technologies</Typography>

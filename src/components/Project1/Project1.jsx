@@ -26,11 +26,19 @@ export default function Projects1() {
                 First user centric CURD project and using Google OAuth authoriztion for users
               </Typography>
             </Paper>
-            <ul className={`${classes.listUl} ${classes.text}`}>
-              <li className={classes.list}>HTML & CSS</li>
-              <li className={classes.list}>Node Js</li>
-              <li className={classes.list}>Mongoose & MongoDB</li>
-            </ul>
+            <Paper className={classes.papper}>
+            <Typography className={classes.text} variant='body1'>
+              <span className={classes.languagetext}>HTML & CSS & EJS </span> - Frontend structure and styling
+              <br />
+              <span className={classes.languagetext}>Express</span> - MVC routing
+              <br />
+              <span className={classes.languagetext}>Node Js</span> - Non blocking network process
+              <br />
+              <span className={classes.languagetext}>MongoDB</span> - Embedding Like data for recipes data
+              <br />
+              <span className={classes.languagetext}>Mongoose</span> - Manage object mapping between Node Js and MongoDB
+            </Typography>
+          </Paper>
           </>
           }
         <div className={classes.iconContainer}>

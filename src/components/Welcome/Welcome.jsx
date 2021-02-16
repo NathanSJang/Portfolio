@@ -12,14 +12,14 @@ export default function Welcome() {
               <Typography style={{ color: '#FF7272'}} className={classes.title} variant="h6">Hi, My name is</Typography>
             </Grow>
             <Grow in timeout={2500}>
-              <Typography className={classes.title} variant="h2">Nathan (Sungbok) Jang</Typography>
+              <Typography className={classes.title} variant="h2">Nathan S Jang</Typography>
             </Grow>
           </Grid>
           <Grid xs={12}>
             <Grow in timeout={2800}>
               <Typography className={classes.text} variant="h6">
                 I'm a software engineer based in San Francisco, CA.<br /> 
-                I have strong passion for learning and building new things. 
+                I have strong passion for learning, maintaining, and improving complex systems. 
               </Typography>
             </Grow>
           </Grid>

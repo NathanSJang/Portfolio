@@ -29,7 +29,9 @@ export default makeStyles((theme) => ({
     color: 'white',
     display: 'flex',
     alignItems: 'center',
-    padding: '3vmin'
+    padding: '3vmin',
+    marginTop: '2vmin',
+    marginBottom: '2vmin',
   },
   title: {
     marginBottom: '2vmin',
@@ -49,5 +51,8 @@ export default makeStyles((theme) => ({
   textHeader: {
     fontFamily: 'Noto Sans JP',
     fontWeight: '400'
-  }
+  },
+  languagetext: {
+    color: '#FF7272'
+  },
 }));

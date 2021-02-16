@@ -27,17 +27,22 @@ export default function Projects2() {
               Using simple Vanilla JavaScript recursion founction and Web api for display
             </Typography>
           </Paper>
-          <ul className={`${classes.listUl} ${classes.text}`}>
-            <li className={classes.list}>HTML & CSS</li>
-            <li className={classes.list}>JavaScript</li>
-          </ul>
+          <Paper className={classes.papper}>
+            <Typography className={classes.text} variant='body1'>
+              <span className={classes.languagetext}>HTML & CSS</span> - Frontend structure and styling
+              <br />
+              <span className={classes.languagetext}>JavaScript</span> - Logic for MineSweeper
+              <br />
+              <span className={classes.languagetext}>DOM</span> - Rendering objects
+            </Typography>
+          </Paper>
           </>
         }
         <div className={classes.iconContainer}>
           <Link color='inherit' href='https://github.com/grey1287/Minesweeper'>
             <GitHub className={classes.icon} fontSize='large' />
           </Link>
-          <Link color='inherit' href='https://grey1287.github.io/Minesweeper/'>
+          <Link color='inherit' href='https://nathansjang.github.io/Minesweeper/'>
             <Public fontSize='large' />
           </Link>
         </div>

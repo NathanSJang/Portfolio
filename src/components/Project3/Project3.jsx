@@ -26,11 +26,14 @@ export default function Projects1() {
               Used Codesandbox for collaboration and deploy.
             </Typography>
           </Paper>
-          <ul className={`${classes.listUl} ${classes.text}`}>
-            <li className={classes.list}>HTML & CSS</li>
-            <li className={classes.list}>Node Js</li>
-            <li className={classes.list}>Mongoose & MongoDB</li>
-          </ul>
+          <Paper className={classes.papper}>
+            <Typography className={classes.text} variant='body1'>
+              <span className={classes.languagetext}>React & JavaScript</span> - Frontend component
+              <br />
+              <span className={classes.languagetext}>HTML & CSS</span> - Styling
+              <br />
+            </Typography>
+          </Paper>
         </>
           }
         <div className={classes.iconContainer}>
