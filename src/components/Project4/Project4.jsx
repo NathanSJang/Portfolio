@@ -37,6 +37,8 @@ export default function Projects3() {
             <Typography className={classes.text} variant='body1'>
               <span className={classes.languagetext}>React & JavaScript</span> - Frontend component
               <br />
+              <span className={classes.languagetext}>React Hooks</span> - Mange React states
+              <br />
               <span className={classes.languagetext}>Express</span> - MVC routing
               <br />
               <span className={classes.languagetext}>Node Js</span> - Non blocking network process

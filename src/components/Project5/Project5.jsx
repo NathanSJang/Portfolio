@@ -32,7 +32,7 @@ export default function Projects3() {
             <Typography className={classes.text} variant='body1'>
               <span className={classes.languagetext}>React & JavaScript</span> - Frontend component
               <br />
-              <span className={classes.languagetext}>Redux</span> - Manage React state
+              <span className={classes.languagetext}>Redux</span> - Manage React states
               <br />
               <span className={classes.languagetext}>Express</span> - MVC routing
               <br />
