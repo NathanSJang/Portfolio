@@ -25,7 +25,7 @@ export default function Projects3() {
           <Paper className={classes.papper}>
             <Typography className={classes.text} variant='body1'>
               React Codealong<br />
-              Build SNS sytle MERN stack app using Google oAuth and token base user centric CURD
+              Build SNS sytle MERN stack app for people's memories using Google OAuth and token base user centric CURD
             </Typography>
           </Paper>
           <Paper className={classes.papper}>
@@ -38,7 +38,7 @@ export default function Projects3() {
               <br />
               <span className={classes.languagetext}>Node Js</span> - Non blocking network process
               <br />
-              <span className={classes.languagetext}>MongoDB</span> - Embedding itmes data for order
+              <span className={classes.languagetext}>MongoDB</span> - data server
               <br />
               <span className={classes.languagetext}>Mongoose</span> - Manage object mapping between Node Js and MongoDB
             </Typography>
