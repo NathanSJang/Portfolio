@@ -43,7 +43,7 @@ export default function Projects3() {
               <br />
               <span className={classes.languagetext}>Node Js</span> - Non blocking network process
               <br />
-              <span className={classes.languagetext}>MongoDB</span> - Embedding itmes data for order
+              <span className={classes.languagetext}>MongoDB</span> - Data server
               <br />
               <span className={classes.languagetext}>Mongoose</span> - Manage object mapping between Node Js and MongoDB
             </Typography>
