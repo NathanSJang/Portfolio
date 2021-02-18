@@ -23,9 +23,9 @@ export default function AboutMe() {
             <Grid xs={12}>
               <ul className={classes.listContainer}>
                 <Grid xs={6}>
+                  <li className={classes.list}>React & Redux </li>
                   <li className={classes.list}>JavaScript</li>
                   <li className={classes.list}>HTML & CSS </li>
-                  <li className={classes.list}>React </li>
                 </Grid>
                 <Grid xs={6}>
                   <li className={classes.list}>Node Js </li>
