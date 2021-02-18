@@ -25,7 +25,7 @@ export default function Projects3() {
           <Paper className={classes.papper}>
             <Typography className={classes.text} variant='body1'>
               React Codealong<br />
-              Build MERN stack app using Google oAuth and token base user centric CURD
+              Build SNS sytle MERN stack app using Google oAuth and token base user centric CURD
             </Typography>
           </Paper>
           <Paper className={classes.papper}>
