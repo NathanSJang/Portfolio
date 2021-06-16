@@ -24,13 +24,15 @@ export default function AboutMe() {
               <ul className={classes.listContainer}>
                 <Grid xs={6}>
                   <li className={classes.list}>React & Redux </li>
+                  <li className={classes.list}>Next Js </li>
                   <li className={classes.list}>JavaScript</li>
                   <li className={classes.list}>HTML & CSS </li>
                 </Grid>
                 <Grid xs={6}>
                   <li className={classes.list}>Node Js </li>
-                  <li className={classes.list}>Mongoose </li>
-                  <li className={classes.list}>MongoDB </li>
+                  <li className={classes.list}>GraphQL & Apollo Server </li>
+                  <li className={classes.list}>Mongoose & Sequelize </li>
+                  <li className={classes.list}>MongoDB & PostgreSQL </li>
                 </Grid>
               </ul>
             </Grid>

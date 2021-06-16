@@ -16,11 +16,11 @@ export default function Projects() {
 
   const slider = (
     <AwesomeSlider>
+      <div><Project2 /></div>
       <div><Project4 /></div>
       <div><Project5 /></div>
       <div><Project3 /></div>
       <div><Project1 /></div>
-      <div><Project2 /></div>
     </AwesomeSlider>
   )
 
