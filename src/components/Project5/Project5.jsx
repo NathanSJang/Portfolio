@@ -24,7 +24,7 @@ export default function Projects3() {
         <>
           <Paper className={classes.papper}>
             <Typography className={classes.text} variant='body1'>
-              React Codealong<br />
+              React Code-along<br />
               Build SNS sytle MERN stack app for people's memories using Google OAuth and token base user centric CURD
             </Typography>
           </Paper>

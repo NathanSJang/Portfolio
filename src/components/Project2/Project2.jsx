@@ -11,38 +11,43 @@ export default function Projects2() {
   return(
     <Grid container className={classes.slideContainer}>
       <Grid item xs={6}>
-        <img className={classes.image} src="https://i.imgur.com/5d0jjKF.png" alt="imgur"/>
+        <img className={classes.image} src="https://i.imgur.com/gGgSiMX.png" alt="imgur"/>
+        <img className={classes.image1} src="https://i.imgur.com/4RYFoxA.png" alt="imgur2"/>
       </Grid>
       <Grid className={classes.contentContainer} item xs={5}>
         <Typography className={classes.textHeader} variant='body1' align='right'>Project</Typography>
-        <Typography className={`${classes.title} ${classes.textHeader}`}variant='h6' align='right'>MineSweeper</Typography>
+        <Typography className={`${classes.title} ${classes.textHeader}`}variant='h6' align='right'>Chat_Chat</Typography>
         {!smMatches ? 
           <></>
           :
           <>
           <Paper className={classes.papper}>
             <Typography className={classes.text} variant='body1'>
-              I build this game after three weeks of learning to code.<br />
-              I thought it would be a fun way for myself and remembering my childhood.
-              Using simple Vanilla JavaScript recursion founction and Web api for display
+              React Code-along<br />
+              Build live chat app for people working from home using React, GraphQL
             </Typography>
           </Paper>
           <Paper className={classes.papper}>
             <Typography className={classes.text} variant='body1'>
-              <span className={classes.languagetext}>HTML & CSS</span> - Frontend structure and styling
+              <span className={classes.languagetext}>React & Bootstrap</span> - Frontend structure and styling
               <br />
-              <span className={classes.languagetext}>JavaScript</span> - Logic for MineSweeper
+              <span className={classes.languagetext}>GraphQL & Apollo Server</span> - Using GraphQL query <br/>
+              <span style={{ paddingLeft: '200px' }}>load data from database</span>
               <br />
-              <span className={classes.languagetext}>DOM</span> - Rendering objects
+              <span className={classes.languagetext}>PostgreSQL</span> - Database for app
+              <br />
+              <span className={classes.languagetext}>Sequelize</span> - Object-relational mapping for Postgres
+              <br />
+              <span className={classes.languagetext}>AWS</span> - Depolyment for app
             </Typography>
           </Paper>
           </>
         }
         <div className={classes.iconContainer}>
-          <Link color='inherit' href='https://github.com/grey1287/Minesweeper'>
+          <Link color='inherit' href='https://github.com/NathanSJang/react_chat'>
             <GitHub className={classes.icon} fontSize='large' />
           </Link>
-          <Link color='inherit' href='https://nathansjang.github.io/Minesweeper/'>
+          <Link color='inherit' href='http://nathan-react-chat.com'>
             <Public fontSize='large' />
           </Link>
         </div>

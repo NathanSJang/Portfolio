@@ -10,6 +10,12 @@ export default makeStyles((theme) => ({
     marginTop: '8vmin',
     marginLeft: '4vmin'
   },
+  image1: {
+    width: '90%',
+    zIndex: '-1',
+    marginTop: '3vmin',
+    marginLeft: '4vmin'
+  },
   contentContainer: {
     marginTop: '8vmin'
   },
